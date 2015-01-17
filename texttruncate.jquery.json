@@ -1,0 +1,28 @@
+{
+  "name": "texttruncate",
+  "title": "Text Truncate",
+  "description": "Truncating Styled Text to Fit a Container Using JQuery",
+  "version": "1.0.0",
+  "homepage": "https://github.com/zerob4wl/textTruncate",
+  "author": {
+    "name": "Ehsan Hosseini",
+    "url": "https://github.com/zerob4wl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerob4wl/textTruncate"
+  },
+  "bugs": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ]
+}

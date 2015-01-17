@@ -5,19 +5,17 @@
 
 ## Getting Started
 
-Download the [production version][min] or the [development version][max].
-
-[min]: https://raw.githubusercontent.com/zerob4wl/jquery-texttruncate/master/dist/jquery.texttruncate.min.js
-[max]: https://raw.githubusercontent.com/zerob4wl/jquery-texttruncate/master/dist/jquery.texttruncate.js
 
 In your web page:
 
 ```html
-<script src="jquery.js"></script>
-<script src="dist/texttruncate.min.js"></script>
-<script>
-  jQuery(function ($) {
-    $.awesome(); // "awesome"
+<script type="text/javascript">
+  $(document).ready(function() {
+  $('#element').textTruncate({
+        marginText :  "...",
+        percentOfParent : "50",
+        parent : '#element-parent'
+    })
   });
 </script>
 ```
